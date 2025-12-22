@@ -1,0 +1,25 @@
+{
+  "name": "Jekyll Development Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "rebornix.ruby" // Ruby extension for VS Code
+      ]
+    }
+  },
+  "postCreateCommand": "bundle config set path 'vendor/bundle' && bundle install",
+  "forwardPorts": [4000], // Forward Jekyll's default port
+  "remoteUser": "vscode",
+  "runArgs": [
+    "--group-add=1000",
+    "--user=1000:1000"
+  ],
+  "containerUser": "vscode"
+}
