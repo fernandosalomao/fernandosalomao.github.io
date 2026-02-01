@@ -20,28 +20,84 @@ microsoft:
 
 microsoft_certs:
 
-  # - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/ai-transformation-leader.svg
-  #   alt: "Microsoft Certified: AI Transformation Leader"
-  #   title: "Microsoft Certified: AI Transformation Leader"
-  #   excerpt: "Issued by **Microsoft** on **02 December 2025**"
+  # - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg
+  #   alt: "Microsoft Certified: Agentic AI Business Solutions Architect"
+  #   title: "Microsoft Certified: Agentic AI Business Solutions Architect"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2026**"
   #   url: "#"
-  #   btn_label: "AB-731 | Show Credential"
+  #   btn_label: "AB-100 | Show Credential"
   #   btn_class: "btn--primary"
 
   # - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg
-  #   alt: "Microsoft Certified: Azure Solutions Architect - Expert"
-  #   title: "Microsoft Certified: Azure Solutions Architect - Expert"
-  #   excerpt: "Issued by **Microsoft** on **21 January 2026**"
+  #   alt: "Microsoft Certified: Cybersecurity Architect - Expert"
+  #   title: "Microsoft Certified: Cybersecurity Architect - Expert"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2026**"
   #   url: "#"
-  #   btn_label: "AZ-305 | Show Credential"
+  #   btn_label: "SC-100 | Show Credential"
   #   btn_class: "btn--primary"
 
-  # - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg
-  #   alt: "Microsoft Certified: DevOps Engineer - Expert"
-  #   title: "Microsoft Certified: DevOps Engineer -  Expert"
-  #   excerpt: "Issued by **Microsoft** on **20 January 2026**"
+  - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg
+    alt: "Microsoft Certified: Azure Solutions Architect - Expert"
+    title: "Microsoft Certified: Azure Solutions Architect - Expert"
+    excerpt: "Issued by **Microsoft** on **21 January 2026**"
+    url: "https://learn.microsoft.com/api/credentials/share/en-nz/FERNANDOSALOMAO-2601/C585A94EDF0FF2D6?sharingId=2DD10F4CEA391346"
+    btn_label: "AZ-305 | Show Credential"
+    btn_class: "btn--primary"
+
+  - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg
+    alt: "Microsoft Certified: DevOps Engineer - Expert"
+    title: "Microsoft Certified: DevOps Engineer -  Expert"
+    excerpt: "Issued by **Microsoft** on **27 January 2026**"
+    url: "https://learn.microsoft.com/api/credentials/share/en-nz/FERNANDOSALOMAO-2601/ECDF26F6A454B3CB?sharingId=2DD10F4CEA391346"
+    btn_label: "AZ-400 | Show Credential"
+    btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/ai-business-professional.svg
+  #   alt: "Microsoft Certified: AI Business Professional"
+  #   title: "Microsoft Certified: AI Business Professional"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
   #   url: "#"
-  #   btn_label: "AZ-400 | Show Credential"
+  #   btn_label: "AB-730 | Show Credential"
+  #   btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/github-copilot.svg
+  #   alt: "GitHub Copilot"
+  #   title: "GitHub Copilot"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "GH-300 | Show Credential"
+  #   btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg
+  #   alt: "Microsoft Certified: Azure Network Engineer - Associate"
+  #   title: "Microsoft Certified: Azure Network Engineer - Associate"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "AZ-700 | Show Credential"
+  #   btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg
+  #   alt: "Microsoft Certified: Azure Security Engineer - Associate"
+  #   title: "Microsoft Certified: Azure Security Engineer - Associate"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "AZ-500 | Show Credential"
+  #   btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg
+  #   alt: "Microsoft Certified: Azure Developer - Associate"
+  #   title: "Microsoft Certified: Azure Developer - Associate"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "AZ-204 | Show Credential"
+  #   btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg
+  #   alt: "Microsoft Certified: Azure Data Scientist - Associate"
+  #   title: "Microsoft Certified: Azure Data Scientist - Associate"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "DP-100 | Show Credential"
   #   btn_class: "btn--primary"
 
   # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg
@@ -60,6 +116,46 @@ microsoft_certs:
     btn_label: "AZ-104 | Show Credential"
     btn_class: "btn--primary"
 
+  # - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/github-foundations.svg
+  #   alt: "GitHub - Foundations"
+  #   title: "GitHub - Foundations"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "GH-900 | Show Credential"
+  #   btn_class: "btn--primary"
+
+  - image_path: https://learn.microsoft.com/en-us/media/learn/certification/badges/ai-transformation-leader.svg
+    alt: "Microsoft Certified: AI Transformation Leader"
+    title: "Microsoft Certified: AI Transformation Leader"
+    excerpt: "Issued by **Microsoft** on **31 January 2026**"
+    url: "https://learn.microsoft.com/api/credentials/share/en-nz/FERNANDOSALOMAO-2601/8DE213D52DCDE27C?sharingId=2DD10F4CEA391346"
+    btn_label: "AB-731 | Show Credential"
+    btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+  #   alt: "Microsoft 365 Certified: Copilot and Agent Administration - Fundamentals"
+  #   title: "Microsoft 365 Certified: Copilot and Agent Administration - Fundamentals"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "AB-900 | Show Credential"
+  #   btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+  #   alt: "Microsoft Certified: Security, Compliance, and Identity - Fundamentals"
+  #   title: "Microsoft Certified: Security, Compliance, and Identity - Fundamentals"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "SC-900 | Show Credential"
+  #   btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+  #   alt: "Microsoft Certified: Azure Data - Fundamentals"
+  #   title: "Microsoft Certified: Azure Data - Fundamentals"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "DP-900 | Show Credential"
+  #   btn_class: "btn--primary"
+
   - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
     alt: "Microsoft Certified: Azure AI - Fundamentals"
     title: "Microsoft Certified: Azure AI - Fundamentals"
@@ -67,6 +163,14 @@ microsoft_certs:
     url: "https://learn.microsoft.com/en-nz/users/fernandosalomao-2601/credentials/dcca14976e336fb4"
     btn_label: "AI-900 | Show Credential"
     btn_class: "btn--primary"
+
+  # - image_path: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg
+  #   alt: "Microsoft Certified: Azure - Fundamentals"
+  #   title: "Microsoft Certified: Azure - Fundamentals"
+  #   excerpt: "Issued by **Microsoft** on **01 January 2025**"
+  #   url: "#"
+  #   btn_label: "AZ-900 | Show Credential"
+  #   btn_class: "btn--primary"
 
 aws: 
   - title: 'AWS Certifications'
