@@ -5,6 +5,28 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+/* Stick the masthead navigation to the top of the viewport */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 20; /* keep above page content (MM uses lower z-index values) */
+  background-color: #eff1f5; /* catppuccin latte: base — opaque so scrolled content doesn't show through */
+}
+
+/* The author sidebar is also sticky (MM default top: 2em). Push it below the
+   sticky masthead so its content (e.g. the author photo) isn't clipped. */
+@media (min-width: 64em) {
+  .sidebar.sticky,
+  .sidebar__right.sticky {
+    top: 6em;
+  }
+
+  /* Keep the scrollable TOC fully visible given the larger sticky offset. */
+  .sidebar__right.sticky .toc .toc__menu {
+    max-height: calc(100vh - 8em);
+  }
+}
+
 /* Light/dark theme toggle button (masthead) */
 .theme-toggle {
   -webkit-appearance: none;

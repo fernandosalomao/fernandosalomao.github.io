@@ -5,3 +5,26 @@
 
 @import "minimal-mistakes/skins/catppuccin_mocha";
 @import "minimal-mistakes";
+
+/* Re-apply the sticky masthead override here too: this stylesheet re-imports
+   the full framework (which sets .masthead { position: relative }) and loads
+   after main.css, so the override in main.scss would otherwise be lost in dark mode. */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #1e1e2e; /* catppuccin mocha: base — opaque so scrolled content doesn't show through */
+}
+
+/* Push the sticky author sidebar below the sticky masthead so it isn't clipped. */
+@media (min-width: 64em) {
+  .sidebar.sticky,
+  .sidebar__right.sticky {
+    top: 6em;
+  }
+
+  /* Keep the scrollable TOC fully visible given the larger sticky offset. */
+  .sidebar__right.sticky .toc .toc__menu {
+    max-height: calc(100vh - 8em);
+  }
+}
