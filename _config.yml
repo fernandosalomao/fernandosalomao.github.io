@@ -10,7 +10,11 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
 remote_theme: mmistakes/minimal-mistakes@4.28.0
-minimal_mistakes_skin    : "contrast"
+minimal_mistakes_skin    : "catppuccin_latte"  # light baseline; dark skin is toggled at runtime
+
+# Custom scripts loaded after the theme footer
+after_footer_scripts:
+  - /assets/js/theme-toggle.js
 
 # Site Settings
 locale: "en-US"

@@ -1,0 +1,7 @@
+---
+# Dark theme stylesheet. Compiled separately from main.scss so it can be
+# toggled on/off at runtime by the theme switcher (see assets/js/theme-toggle.js).
+---
+
+@import "minimal-mistakes/skins/catppuccin_mocha";
+@import "minimal-mistakes";

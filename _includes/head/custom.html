@@ -1,0 +1,31 @@
+{% comment %} Dark mode support. - Loads the dark skin stylesheet (compiled from
+assets/css/dark.scss) but keeps it disabled by default so the light theme
+remains the baseline. - The inline script runs before the body renders to apply
+the saved preference (or the OS preference) immediately, preventing a flash of
+the wrong theme. {% endcomment %}
+<link
+  rel="stylesheet"
+  href="{{ '/assets/css/dark.css' | relative_url }}"
+  id="theme-dark-css"
+  disabled
+/>
+<script>
+  (function () {
+    var stored = null;
+    try {
+      stored = localStorage.getItem("theme");
+    } catch (e) {}
+    var prefersDark =
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var isDark = stored ? stored === "dark" : prefersDark;
+    var link = document.getElementById("theme-dark-css");
+    if (link) {
+      link.disabled = !isDark;
+    }
+    document.documentElement.setAttribute(
+      "data-theme",
+      isDark ? "dark" : "light",
+    );
+  })();
+</script>
