@@ -1,8 +1,7 @@
 ---
-title: "When Platform Golden Path Leads Back to Ops"
+title: "When platform golden path leads back to ops"
 date: 2026-06-05T09:00:00-03:00
-last_modified_at: 2026-06-07T10:00:00-03:00
-excerpt: "Platform Engineering is one of the most compelling ideas in modern software delivery. The promise is genuinely beautiful: golden paths, self-service environments, paved roads, less cognitive load, safer deployments, and developers who can finally ship without first obtaining a PhD in Kubernetes, networking and a minor in cloud IAM philosophy."
+excerpt: "Platform Engineering is one of the most compelling ideas in modern software delivery. Done well, it is excellent. Done poorly, it is the Ops team from 2014 wearing a hoodie and carrying a Backstage login page."
 categories:
   - Blog
 tags:
@@ -11,6 +10,8 @@ tags:
   - sre
 toc: true
 toc_sticky: true
+header:
+  teaser: /assets/images/tooling-landscape-platform-engineering.jpg
 ---
 
 Platform Engineering is one of the most compelling ideas in modern software delivery. The promise is genuinely beautiful: golden paths, self-service environments, paved roads, less cognitive load, safer deployments, and developers who can finally ship without first obtaining a PhD in Kubernetes, networking and a minor in cloud IAM philosophy.
