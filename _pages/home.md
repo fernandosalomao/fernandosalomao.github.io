@@ -4,8 +4,8 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/mike-hindle-tqJHwF5ILFU-unsplash.jpg
+  overlay_image: /assets/images/hero-home-1920x840.jpg
+  # overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   actions:
     - label: "Read the blog"
       url: /posts/

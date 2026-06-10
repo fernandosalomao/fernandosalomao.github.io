@@ -5,7 +5,7 @@ title: "About Me"
 
 Hi, I’m Fernando 👋
 
-I am a Cloud & AI Architecture Leader with 10+ years of experience designing, building, and operating large-scale technology platforms across Azure, AWS, and hybrid environments.
+I am a Cloud Engineering & Architecture Leader with 10+ years of experience designing, building, and operating large-scale technology platforms across Azure, AWS, and hybrid environments.
 
 My career sits at the intersection of architecture, engineering, and leadership. I have worked hands-on with cloud platforms, Infrastructure as Code, DevOps, security, and platform governance, while also leading teams, setting technical direction, and helping organizations scale safely and sustainably.
 

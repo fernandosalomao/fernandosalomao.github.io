@@ -2,8 +2,10 @@
 title: "When platform golden path leads back to ops"
 date: 2026-06-05T09:00:00-03:00
 excerpt: "Platform Engineering is one of the most compelling ideas in modern software delivery. Done well, it is excellent. Done poorly, it is the Ops team from 2014 wearing a hoodie and carrying a Backstage login page."
+redirect_from:
+  - /blog/platform-silo/
 categories:
-  - Blog
+  - platform-engineering
 tags:
   - platform engineering
   - devops
